@@ -1,15 +1,53 @@
 ---
-title: About Alembic
+title: About Me
 feature_text: |
-  ## Alembic
-  A Jekyll boilerplate theme designed to be a starting point for any Jekyll website
+  # Paul Kim
+  Combined Master's & Ph.D Student in Electrical and Computer Engineering,
+  Seoul Nat'l University
 feature_image: "https://picsum.photos/1300/400?image=989"
-excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
+excerpt: |
+  This is my personal website, serving also as a portfolio and a web-based CV.
 ---
 
-Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get rolling immediately. Install it, configure it, tweak it, push it.
+{% include figure.html
+  image="assets/images/profile.jpg"
+  position="right"
+  caption="Nice to meet you!"
+%}
+I am a Combined Master's & Ph.D student of the Department of Electric and
+Computer Engineering at Seoul Nat'l University, mainly interested in hardware
+design and system programming.<br>
+I have been involved in several projects, including my graduation project
+concerning basic hardware design and optimisation of an SRCNN accelerator.<br>
+I am also a hobbyist developer with experience in LaTeX, Python and HTML/CSS.
 
-{% include button.html text="Fork it" icon="github" link="https://github.com/daviddarnes/alembic" color="#0366d6" %} {% include button.html text="Buy me a coffee ☕️" link="https://buymeacoffee.com/daviddarnes#support" color="#f68140" %} {% include button.html text="Tweet it" icon="twitter" link="https://twitter.com/intent/tweet/?url=https://alembic.darn.es&text=Alembic%20-%20A%20Jekyll%20boilerplate%20theme&via=DavidDarnes" color="#0d94e7" %} {% include button.html text="Install Alembic ⚗️" link="https://github.com/daviddarnes/alembic#installation" %}
+{% include button.html
+  text="Check me out on"
+  icon="github"
+  link="https://github.com/thekpaul"
+  color="#0366d6"
+%} &nbsp; <!-- This prevents line-breaking between buttons -->
+{% include button.html
+  text="Fork this template"
+  icon="github"
+  link="https://github.com/new?template_name=alembic&template_owner=daviddarnes"
+  color="#d60366"
+%} &nbsp;
+{% include button.html
+  text="Buy the creator a coffee ☕️"
+  link="https://buymeacoffee.com/daviddarnes#support"
+  color="#f68140"
+%} &nbsp;
+{% include button.html
+  text="Install Alembic ⚗️"
+  link="https://github.com/daviddarnes/alembic#installation"
+%} &nbsp; <!--
+{% include button.html
+  text="Tweet it"
+  icon="twitter"
+  link="https://twitter.com/intent/tweet/?url=https://alembic.darn.es&text=Alembic%20-%20A%20Jekyll%20boilerplate%20theme&via=DavidDarnes"
+  color="#0d94e7"
+%} -->
 
 ## Features
 
@@ -43,17 +81,17 @@ Here are a few examples of Alembic out in the wild being used in a variety of wa
 
 To give you a running start I've put together some starter kits that you can download, fork or even deploy immediately:
 
-- ⚗️🍨 Vanilla Jekyll starter kit  
+- ⚗️🍨 Vanilla Jekyll starter kit
   [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/daviddarnes/alembic-kit){:style="background: none"}
-- ⚗️🌲 Forestry starter kit  
-  [![Deploy to Forestry](https://assets.forestry.io/import-to-forestry.svg)](https://app.forestry.io/quick-start?repo=daviddarnes/alembic-forestry-kit&engine=jekyll){:style="background: none"}  
+- ⚗️🌲 Forestry starter kit
+  [![Deploy to Forestry](https://assets.forestry.io/import-to-forestry.svg)](https://app.forestry.io/quick-start?repo=daviddarnes/alembic-forestry-kit&engine=jekyll){:style="background: none"}
   [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/daviddarnes/alembic-forestry-kit){:style="background: none"}
-- ⚗️💠 Netlify CMS starter kit  
+- ⚗️💠 Netlify CMS starter kit
   [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/daviddarnes/alembic-netlifycms-kit&stack=cms){:style="background: none"}
 
-- ⚗️:octocat: GitHub Pages with remote theme kit  
+- ⚗️:octocat: GitHub Pages with remote theme kit
   {% include button.html text="Download kit" link="https://github.com/daviddarnes/alembic-kit/archive/remote-theme.zip" color="#24292e" %}
-- ⚗️🚀 Stackbit starter kit  
+- ⚗️🚀 Stackbit starter kit
   [![Create with Stackbit](https://assets.stackbit.com/badge/create-with-stackbit.svg)](https://app.stackbit.com/create?theme=https://github.com/daviddarnes/alembic-stackbit-kit){:style="background: none"}
 
 ### As a Jekyll theme
